@@ -1,0 +1,210 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+	html {
+		/* 9px / 16px  */
+		font-size: 56.25%;
+	}
+
+	.pricing-heading-primary {
+		font-size: 2.8rem;
+	}
+
+	.pricing-para-primary {
+		font-size: 1.5rem;
+	}
+
+	.footer-heading {
+		font-size: 2.8rem;
+	}
+}
+
+/**************************/
+/* BELOW 990px (Tablets) */
+/**************************/
+
+@media (max-width: 62em) {
+	html {
+		/* 8px / 16px = 0.5 = 50% */
+		font-size: 50%;
+	}
+
+	.logo img {
+		height: 4.8rem;
+	}
+
+	.main-nav-list .main-nav-link {
+		display: none;
+	}
+
+	.section-hero-main {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.button {
+		align-self: center;
+	}
+
+	.order-1 {
+		order: 0;
+	}
+	.order-2 {
+		order: 1;
+	}
+	.order-3 {
+		order: 4;
+	}
+	.order-4 {
+		order: 3;
+	}
+	.order-5 {
+		order: 5;
+	}
+	.order-6 {
+		order: 6;
+	}
+
+	.service-head {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 4.8rem;
+		text-align: center;
+	}
+
+	.service-body {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.pricing-boxes {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		justify-items: center;
+		align-items: center;
+		row-gap: 3.2rem;
+		column-gap: 3.2rem;
+	}
+
+	.pricing-box-1 {
+		justify-self: end;
+	}
+
+	.pricing-box-2 {
+		justify-self: start;
+	}
+
+	.pricing-box-3 {
+		grid-column: span 2;
+		justify-self: center;
+	}
+
+	.register-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		text-align: center;
+		gap: 4.8rem;
+	}
+
+	.footer-main {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.footer-box-end {
+		grid-column: span 4;
+		justify-self: center;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+	.pricing-boxes {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-main {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.footer-box {
+		text-align: center;
+	}
+
+	.footer-logo {
+		height: 4.8rem;
+		margin: 0 auto;
+	}
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+	.logo img {
+		height: 4rem;
+	}
+
+	.footer-logo {
+		height: 4.8rem;
+	}
+
+	.section-hero-main {
+		width: 100%;
+	}
+
+	.img-hero img {
+		width: 70%;
+	}
+
+	.testimonial-boxes {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer-main {
+		display: flex;
+		flex-direction: column;
+		gap: 6.4rem;
+	}
+}
+/* 
+  - Font sizes (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  - Spacing system (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  */

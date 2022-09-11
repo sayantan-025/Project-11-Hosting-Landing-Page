@@ -2,7 +2,7 @@
 
 ![Created By Sayantan Bera](https://img.shields.io/badge/Created%20By-Sayantan%20Bera-blue)
 
-## **Project-11** [Live Link](https://plant-landing-page-sayantan.netlify.app/)
+## **Project-11** [Live Link](https://hosting-landing-page-sayantan.netlify.app/)
 
 ### Website Image
 
@@ -18,4 +18,4 @@
 
 - Learned to use colour box-shadow
 
-## This project took around 7.5 hours to complete.
+## This project took around 7.5 hours to complete and 5.5 hours to responsive.
