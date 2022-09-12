@@ -175,8 +175,25 @@
 /**************************/
 
 @media (max-width: 34em) {
+	.logo {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 4.8rem;
+		margin-top: 3.2rem;
+	}
+
 	.logo img {
 		height: 4rem;
+	}
+
+	.main-nav {
+		display: none;
+	}
+
+	.container {
+		padding: 0 3.2rem;
 	}
 
 	.footer-logo {
